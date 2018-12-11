@@ -1,0 +1,36 @@
+{
+    "access-log-file": null,
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        "0.0.0.0:3333",
+        "[::]:3333"
+    ],
+    "colors": true,
+    "custom-diff": 0,
+    "donate-level": 2,
+    "log-file": null,
+    "mode": "simple",
+    "pools": [
+        {
+            "url": "stratum+tcp://main-pool.ulorders.com:18888",
+            "user": "UabxZwqvVUyWgubucmAYTzk2softier6qE",
+            "pass": "x",
+            "variant": -1
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "reuse-timeout": 0,
+    "user-agent": null,
+    "verbose": false,
+    "watch": true,
+    "workers": true
+}
