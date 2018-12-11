@@ -1,15 +1,15 @@
 
 # 2018/12/11 Patrick Mei add some readme for ulordrig-proxy
-CentOS7 prerequisites
-	yum install libuv
-	yum install libmicrohttpd-devel
-	yum install uuid-devel libuuid-devel
-CentOS7 build
-	mkdir build && cd build
-	cmake ..
-	make
-	cp ../src/config/config.json .
-	./ulordrig-proxy
+- CentOS7 prerequisites
+	- yum install libuv
+	- yum install libmicrohttpd-devel
+	- yum install uuid-devel libuuid-devel
+- CentOS7 build
+	- mkdir build && cd build
+	- cmake ..
+	- make
+	- cp ../src/config/config.json .
+	- ./ulordrig-proxy
 
 # XMRig Proxy
 [![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig-proxy/total.svg)](https://github.com/xmrig/xmrig-proxy/releases)

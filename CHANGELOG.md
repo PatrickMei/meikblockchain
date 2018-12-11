@@ -1,6 +1,6 @@
 
 # 2018/12/11 Patrick Mei modify xmrig-proxy v2.5.3 to be ulordrig-proxy between ulord pool and ulordrig
-- change CMakeLists.txt:
+- change CMakeLists.txt
 	- set progject name to ulordrig-proxy
 	- uncomment 'add_definitions(/DAPP_DEBUG)' to output debug message
 	- add '-std=c++11' on CMAKE_CXX_FLAGS to fix cmake may not auto recognize 'set(CMAKE_CXX_STANDARD 11)':
